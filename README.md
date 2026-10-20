@@ -42,4 +42,6 @@ pip install pandas numpy matplotlib jupyter
 jupyter notebook desafio_delivery.ipynb
 ```
 
-Também funciona no Google Colab: envie a pasta `dados/` e execute as células em ordem.
+Também funciona no Google Colab: envie os CSVs (dentro de `dados/` ou na mesma pasta do notebook) e execute as células em ordem.
+
+O notebook procura os arquivos em `dados/` e, se a pasta não existir, na pasta atual.
